@@ -43,8 +43,8 @@
     
     if (self.boxType == BEMBoxTypeSquare) {
         // If we use a square box, the check mark should be a little bit bigger
-        [checkMarkPath applyTransform:CGAffineTransformMakeScale(1.5, 1.5)];
-        [checkMarkPath applyTransform:CGAffineTransformMakeTranslation(-self.size/4, -self.size/4)];
+       // [checkMarkPath applyTransform:CGAffineTransformMakeScale(1.5, 1.5)];
+       // [checkMarkPath applyTransform:CGAffineTransformMakeTranslation(-self.size/4, -self.size/4)];
     }
     
     return checkMarkPath;
